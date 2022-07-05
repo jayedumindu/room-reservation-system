@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="382.0" prefWidth="600.0" style="-fx-background-color: #490F0F;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Admin_Panel">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="204.0" opacity="0.72" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/admin-panel_rooms.....admin-rooms.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="402.0" fitWidth="204.0" layoutX="204.0" opacity="0.68" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/admin-panel_meals....admin-meals.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="402.0" fitWidth="192.0" layoutX="408.0" opacity="0.71" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/admin-manel_reports....admin-reports.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="71.0" layoutY="301.0" mnemonicParsing="false" text="Rooms" />
+      <Button layoutX="272.0" layoutY="111.0" mnemonicParsing="false" text="Meals" />
+      <Button layoutX="447.0" layoutY="301.0" mnemonicParsing="false" text="Income Report" />
+      <Pane layoutX="19.0" layoutY="38.0" opacity="0.4" prefHeight="146.0" prefWidth="166.0" style="-fx-background-color: #8D6762;">
+         <children>
+            <Label layoutX="20.0" layoutY="32.0" prefHeight="82.0" prefWidth="127.0" text="Hotel rooms inhabit a separate moral universe. --Tom Stoppard" wrapText="true">
+               <font>
+                  <Font name="Dyuthi Regular" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="223.0" layoutY="201.0" opacity="0.86" prefHeight="146.0" prefWidth="166.0" style="-fx-background-color: #8D6762;">
+         <children>
+            <Label layoutX="20.0" layoutY="32.0" prefHeight="82.0" prefWidth="127.0" text="You can't fake quality any more than you can fake a good meal. --William S. Burroughs" wrapText="true">
+               <font>
+                  <Font name="Dyuthi Regular" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="420.0" layoutY="38.0" opacity="0.9" prefHeight="146.0" prefWidth="166.0" style="-fx-background-color: #8D6762;">
+         <children>
+            <Label layoutX="22.0" layoutY="29.0" prefHeight="82.0" prefWidth="127.0" text="Wealth - any income that is at least one hundred dollars more a year than the income of one's wife's sister's husband. --H. L. Mencken" wrapText="true">
+               <font>
+                  <Font name="Dyuthi Regular" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="43.0" fitWidth="40.0" layoutX="280.0" layoutY="29.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
